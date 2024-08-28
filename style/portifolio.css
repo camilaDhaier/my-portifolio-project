@@ -1,6 +1,10 @@
-body{
-    background-color: darkgray;
+h1 {
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
 }
-h1{
-    font-family: Playfair Display ;
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
 }
