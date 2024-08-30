@@ -179,6 +179,10 @@ footer .social-links a:hover {
     color: white;
     background: var(--branding-color);
 }
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
 
 @media (max-width: 900px) {
     h1 {
@@ -207,4 +211,11 @@ footer .social-links a:hover {
         padding: 0;
         text-align: center;
     }
+    .btn-branding {
+        display: block;
+    }
+    .img-fluid{
+       justify-content: center;
+    }
+    
 }
