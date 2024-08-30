@@ -4,6 +4,9 @@
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "Poppins", sans-serif;
 }
+a{
+    color: var(--branding-color)
+}
 
 body {
     font-family: var(--default-font-family);
@@ -218,4 +221,12 @@ footer .social-links a:hover {
        justify-content: center;
     }
     
+}
+.get-in-touch {
+    background-color: var(--secondary-color);
+    border-radius: 13%;
+    text-align: center;
+}
+.get-in-touch-info{
+    text-align: center;
 }
